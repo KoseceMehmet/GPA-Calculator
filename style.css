@@ -1,0 +1,49 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+.container {
+    background-color: rgb(224, 204, 178);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+}
+
+h1{
+    margin-bottom: 50px;
+}
+#myDıv {
+    text-align: center;
+}
+
+label{
+    display: flex;
+    text-align: left;
+    margin: 10px;
+}
+
+input{
+    width: 200px;
+    height: 20px;
+}
+
+button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100px;
+    height: 30px;
+    background-color: antiquewhite;
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    background-color: rgb(147, 144, 128);
+    color: white;
+}
